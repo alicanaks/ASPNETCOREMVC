@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "BlogApp.sln",
+    "prettier.requirePragma": true
+}

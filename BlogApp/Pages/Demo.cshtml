@@ -1,0 +1,17 @@
+﻿@page
+@model BlogApp.Pages.DemoModel
+@{
+}
+
+
+<div class="my-5 text-center">
+    <form method="post" asp-page="/Demo">
+
+        <div class="display-6">Hello</div>
+        <p>@HttpContext.Session.GetString("name")</p>
+        <input name="name" class="form-control" placeholder="Adınız" />
+        <input class="btn btn-primary my-3" type="submit" placeholder="Submit" />
+
+    </form>
+</div>
+
